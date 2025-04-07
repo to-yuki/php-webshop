@@ -1,0 +1,122 @@
+h1 {
+    color: #333; /* 見出しの色を設定 */
+}
+
+header {
+    display: flex; /* フレックスボックスを使用して配置 */
+    justify-content: center; /* ヘッダー内の要素を中央寄せにする */
+    align-items: center; /* 垂直方向に中央揃え */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* ナビゲーションメニューを中央寄せ */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none; /* リストのスタイルを削除 */
+    padding: 0; /* パディングを削除 */
+    margin: 0; /* マージンを削除 */
+}
+
+nav ul li {
+    margin: 0 20px; /* 各アイテムの間にスペースを追加 */
+}
+
+body {
+    font-size: 16px; /* フォントサイズを16pxに設定 */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* フォントファミリーを設定 */
+    line-height: 1.6; /* 行の高さを設定 */
+    color: #333; /* テキストの色を設定 */
+    background-color: #f5f5f5; /* 背景色を設定 */
+    padding-top: 50px; /* 上部に50pxのパディングを追加 */
+}
+
+h1 {
+    font-size: 36px; /* フォントサイズを36pxに設定 */
+    text-align: center; /* 中央揃え */
+    margin-bottom: 30px; /* 下部に30pxのマージンを追加 */
+}
+
+table {
+    margin: auto; /* テーブルを中央に配置 */
+    border-collapse: collapse; /* ボーダーを重ね合わせる */
+    border-spacing: 0; /* ボーダー間のスペースを0に */
+    width: 900px; /* テーブルの幅を900pxに設定 */
+    background-color: #fff; /* 背景色を白に設定 */
+    border: 1px solid #ddd; /* 薄いグレーのボーダーを設定 */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .08); /* 軽い影を追加 */
+}
+
+td,
+th {
+    padding: 10px; /* セル内のパディングを10pxに設定 */
+    border-bottom: 1px solid #ddd; /* 下部に薄いグレーのボーダーを設定 */
+    text-align: left; /* テキストを左揃え */
+}
+
+th {
+    background-color: #f5f5f5; /* 背景色を薄いグレーに設定 */
+    font-weight: bold; /* 太字に設定 */
+    color: #333; /* テキストの色を設定 */
+    border-right: 1px solid #ddd; /* 右側に薄いグレーのボーダーを設定 */
+}
+
+td {
+    border-right: 1px solid #ddd; /* 右側に薄いグレーのボーダーを設定 */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="age"], input[type="number"]  {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px #d3d3d3;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.actions {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.actions a {
+    display: inline-block;
+    max-width: 500px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.actions a:hover {
+    background-color: #0069d9;
+}
