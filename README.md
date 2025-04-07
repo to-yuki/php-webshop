@@ -16,3 +16,6 @@ mysql -u root -p -h app-db-1 app
 
 コンテナ停止
 docker compose down --remove-orphans
+
+イメージフォルダ(画像データを配置)
+PHP-Webshop/app/src/img
