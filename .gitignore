@@ -26,3 +26,6 @@
 
 # Docker Run time Files
 /app/docker/mysql/data
+
+#Mac temp files
+.DS_Store
