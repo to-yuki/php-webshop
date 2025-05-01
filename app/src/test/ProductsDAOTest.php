@@ -2,12 +2,12 @@
     <body>
         <?php
         
-        require_once '../pdo/ProductsPDO.php'; // Productsクラスのファイルをインクルード
-        require_once '../pdo/Product.php';      // Productクラスのファイルをインクルード
+        require_once '../model/ProductsPDO.php'; // Productsクラスのファイルをインクルード
+        require_once '../model/Product.php';      // Productクラスのファイルをインクルード
         
-        use pdo\DatabaseManager;
-        use pdo\ProductsPDO;
-        use pdo\Product;
+        use model\DatabaseManager;
+        use model\ProductsPDO;
+        use model\Product;
         
         class ProductsPDOTest {
             
